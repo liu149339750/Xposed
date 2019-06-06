@@ -18,8 +18,8 @@
 #define XPOSED_SAFEMODE_NODELAY  XPOSED_DIR "conf/safemode_nodelay"
 #define XPOSED_SAFEMODE_DISABLE  XPOSED_DIR "conf/safemode_disable"
 
-#define XPOSED_CLASS_DOTS_ZYGOTE "de.robv.android.xposed.XposedBridge"
-#define XPOSED_CLASS_DOTS_TOOLS  "de.robv.android.xposed.XposedBridge$ToolEntryPoint"
+#define XPOSED_CLASS_DOTS_ZYGOTE "de.robv.lw.android.xposed.XposedBridge"
+#define XPOSED_CLASS_DOTS_TOOLS  "de.robv.lw.android.xposed.XposedBridge$ToolEntryPoint"
 
 #if XPOSED_WITH_SELINUX
 #include <selinux/selinux.h>
